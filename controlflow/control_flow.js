@@ -47,3 +47,51 @@ let isAuthenticated = true;
 
 let authenticationStatus = isAuthenticated ? "Authenticated" : " not authenticated" ;
 console.log("authentication status :" , authenticationStatus);
+
+// PARCTICE TASK
+let userid = 'employee';
+let accespermision ;
+
+if (userid === "employee"){
+    accespermision = " have access to Dietary Services";
+}else if (userid === "Enrolled Member"){
+    accespermision = " have access to Dietary Services  and one-on-one interaction with a dietician."
+}else if (userid ==="Subsecriber"){
+    accespermision = "you have partial acces to dietry service only . ";
+}else {
+    accespermision = "SUBSUCRIBE DUUH ! ";
+}
+console.log("you ", accespermision); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
