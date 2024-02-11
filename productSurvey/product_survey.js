@@ -1,5 +1,5 @@
 function submitFeedback() {
-
+    document.getElementById('userInfo').style.display = 'block';
 }
 const username = document.getElementById('name').value;
 const age = document.getElementById('age').value;
@@ -20,7 +20,6 @@ document.getElementById('userJob').innerHTML = job;
 document.getElementById('userDesignation').innerHTML = designation;
 document.getElementById('userProductChoice').innerHTML = productType;
 document.getElementById('userFeedback').innerHTML = feedback;
-document.getElementById('userInfo').style.display = 'block';
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       submitFeedback();
